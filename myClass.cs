@@ -6,11 +6,14 @@ namespace GitExercise
         private string _adress;
         private int _postnr;
 
-        public myClass(string name, string adress, int postnr)
+        private string _by;
+
+        public myClass(string name, string adress, int postnr, string by)
         {
             _name = name;
             _adress = adress;
             _postnr = postnr;
+            _by = by;
         }
     }
 }
